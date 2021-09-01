@@ -16,10 +16,10 @@
         <quarkus.platform.artifact-id>quarkus-bom</quarkus.platform.artifact-id>
         <quarkus.platform.group-id>io.quarkus.platform</quarkus.platform.group-id>
         <!-- Issue in this version -->
-            <quarkus.platform.version>2.2.1.Final</quarkus.platform.version>
-        <!--    Working with-->
-<!--        <quarkus.platform.version>2.2.0.CR1</quarkus.platform.version>-->
-        <!--    <quarkus.platform.version>2.1.4.Final</quarkus.platform.version>-->
+        <quarkus.platform.version>2.2.1.Final</quarkus.platform.version>
+        <!--    BeforeEach are working with-->
+        <!--        <quarkus.platform.version>2.2.0.CR1</quarkus.platform.version>-->
+        <!--        <quarkus.platform.version>2.0.0.Final</quarkus.platform.version>-->
         <surefire-plugin.version>3.0.0-M5</surefire-plugin.version>
     </properties>
     <dependencyManagement>

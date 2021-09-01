@@ -18,24 +18,10 @@ public class MultipleNestedQuarkusTest {
         @Nested
         class SecondNested {
 
-            @Nested
-            class Foo {
-
-                @Test
-                void check(){
-                    Assertions.assertTrue(true);
-                }
-            }
-
-            @Nested
-            class Bar {
-                @Test
-                void check(){
-                    Assertions.assertTrue(true);
-                }
+            @Test
+            void check() {
+                Assertions.assertTrue(true);
             }
         }
-
     }
-
 }
